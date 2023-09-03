@@ -1,0 +1,151 @@
+.home {
+  width: 100%;
+  height: 465px;
+  background: transparent;
+  position: relative;
+}
+
+.home::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.home_background {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.home_content {
+  position: absolute;
+  bottom: 106px;
+  left: 50%;
+  z-index: 9;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.home_title {
+  font-size: 72px;
+  font-weight: 800;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.tabs {
+  margin-top: 25px;
+}
+
+.uk-tab > .uk-active > a {
+  color: #333;
+  border-color: var(--active_color);
+}
+
+.uk-tab > * > a {
+  display: block;
+  text-align: center;
+  padding: 5px 10px;
+  color: #999;
+  border-bottom: 4px solid transparent;
+  font-size: 15px;
+  text-transform: uppercase;
+  -webkit-transition: color .1s ease-in-out;
+  transition: color .1s ease-in-out;
+}
+
+.uk-accordion > :nth-child(n+2) {
+  margin-top: 10px;
+}
+
+.faq_wrapss {
+  direction: rtl;
+  text-align: right;
+}
+
+.faq_section .uk-accordion-title {
+  color: black;
+  background: whitesmoke;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 17px 40px 17px 14px;
+}
+
+.faq_section .uk-accordion-content {
+  margin-top: 0px;
+  padding: 20px;
+  background-color: #fafafa;
+}
+
+.faq_section .uk-accordion-content p {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.faq_section .uk-accordion-title::before {
+  content: "";
+  width: 1.2em;
+  height: 1.2em;
+  margin-left: 10px;
+  float: left;
+  background-image: url("https://easytravel.com.sa/public/assets/images/arrow.svg");
+  background-position: center center;
+  background-size: contain;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.faq_section .faq_accord {
+  margin-top: 0px;
+}
+
+.faq_section .more_faq {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.faq_section .more_faq a {
+  font-weight: 700;
+  font-size: 26px;
+  color: #FFFFFF;
+  border: 1.5px solid #FF6433;
+  border-radius: 15px;
+  padding: 4px 43px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.faq_section .more_faq a:hover {
+  font-weight: 700;
+  font-size: 26px;
+  background-color: #FF6433;
+  border: 1.5px solid #fff;
+}
+
+.tab_a {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .uk-tab > * > a {
+    font-size: 12px;
+    padding: 5px 0px;
+  }
+  .desc_up {
+    font-size: 13px;
+  }
+  .faq_section .uk-accordion-title {
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=faqAr.css.map */

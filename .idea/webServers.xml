@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="140eadca-5a15-4257-aebb-171954ea28b3" name="easy_travel" url="http://103.72.78.26">
+        <fileTransfer rootFolder="/easytravel.com.sa" host="103.72.78.26" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
